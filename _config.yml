@@ -111,7 +111,7 @@ plugins:
 
 # Build settings
 remote_theme: hydecorp/hydejack
-theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 
