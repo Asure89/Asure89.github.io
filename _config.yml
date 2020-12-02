@@ -29,8 +29,9 @@ keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
-# It also used by the `jekyll-seo-tag` plugin.
-# logo:                  /assets/img/logo.png
+# It also used by the `jekyll-seo-tag` plugin. 
+logo:                  /image/profile_filtered.png
+accent_image:          /image/beach.jpg
 
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, welcome to my personal site. 
@@ -123,7 +124,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude: /assets/img
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -134,7 +135,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
