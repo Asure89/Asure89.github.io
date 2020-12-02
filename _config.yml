@@ -29,8 +29,9 @@ keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
-# It also used by the `jekyll-seo-tag` plugin.
-# logo:                  /assets/img/logo.png
+# It also used by the `jekyll-seo-tag` plugin. 
+logo:                  /image/profile_filtered.png
+accent_image:          /image/beach.jpg
 
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, welcome to my personal site. 
@@ -110,8 +111,9 @@ plugins:
 
 
 # Build settings
+# Github doesn't support this theme
 remote_theme: hydecorp/hydejack
-#theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 
@@ -134,7 +136,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
