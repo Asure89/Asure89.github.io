@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "Bookmarks"
-
+permalink: /bookmarks/
+sidebar: true
+order: 4
 ---
 <!-- # Programming Languages
 

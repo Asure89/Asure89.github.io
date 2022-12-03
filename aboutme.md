@@ -1,7 +1,9 @@
 ---
 layout: page
 title:  "About me"
-
+permalink: /about/
+sidebar: true
+order: 1
 ---
 ## Hello, world!
 
