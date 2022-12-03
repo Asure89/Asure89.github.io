@@ -1,7 +1,11 @@
 <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
 <ul>
+  <!-- From all the site pages & documents, take pages that has been marked as sidebar: true-->
   {% assign nodes = site.html_pages | concat: site.documents | where: "sidebar", true | sort: "order" %}
+  <!--From what we’ve collected, filter tags only.-->
   {% assign tag_nodes = nodes | where: "type", "tag" %}
+  <!--While iterating nodes, create a menu for those that aren’t tag type.
+    (Because the tag type will be shown only as a submenu.)-->
   {% for node in nodes %}
     {% unless node.redirect_to %}
       {% if node.type != "tag" %}
@@ -19,6 +23,10 @@
               </button>
             {% endif %}
           </div>
+          <!-- list of pages that have the same category as a current node.slug,
+            the property of sidebar is already filtered previously.
+            We create checkbox & label iff subnodes list is not empty.
+            And create a list of subnodes below.-->
           {% for subnode in subnodes %}
             {% if forloop.first %}<ul class="list-body">{% endif %}
                 <li>

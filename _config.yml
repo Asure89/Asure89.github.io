@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 # The content here will appear in the document head meta (for
 # Google search results) and in feed.xml site description.
-title: Liya Ou
+title: Liya
 
 # A shorter description for the sidebar.
 #tagline:               Change `tagline` in `_config.yml`
@@ -29,13 +29,13 @@ keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
-# It also used by the `jekyll-seo-tag` plugin. 
+# It also used by the `jekyll-seo-tag` plugin.
 logo:                  /image/profile_filtered.png
 accent_image:          /image/beach.jpg
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, welcome to my personal site. 
-  My name is Liya Ou, studied Electronic and Information Engineering.
+  Hi, welcome to my personal site.
+  My name is Liya, studied Electronic and Information Engineering.
   Now I am a newbie to computer science and software engineering.
   Here I would like to share with you my study path and new discoveries in my life.
 baseurl: "" # the subpath of your site, e.g. /blog

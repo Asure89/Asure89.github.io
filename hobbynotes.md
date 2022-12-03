@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Daily"
+title:  "Hobby Notes"
 
 ---
 Share my thoughts

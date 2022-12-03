@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "CS Blog"
+title:  "Dev Notes"
 
 ---
 my post
